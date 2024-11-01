@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 interface ServiceWorkerProviderProps {
   children: React.ReactNode;
-  serviceWorkerPath: string;
+  serviceWorkerPath?: string;
 }
 
 const ServiceWorkerProvider: React.FC<ServiceWorkerProviderProps> = ({
