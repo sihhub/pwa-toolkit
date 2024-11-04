@@ -1,14 +1,29 @@
 {
   "name": "pwa-toolkit",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A toolkit for simplifying PWA settings for Next.js and React.js",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "pwa",
+    "toolkit",
+    "typescript",
+    "nextjs",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/pwa-toolkit.git"
+  },
+  "author": "sih",
+  "license": "MIT",
   "dependencies": {
     "next": "^15.0.2",
     "react": "^18.3.1",
