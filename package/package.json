@@ -1,5 +1,5 @@
 {
-  "name": "@hongsungin/pwa-toolkit",
+  "name": "pwa-toolkit",
   "version": "1.0.0",
   "description": "A toolkit for simplifying PWA settings for Next.js and React.js",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/yourusername/pwa-toolkit.git"
   },
-  "author": "hongsungin",
+  "author": "sih",
   "license": "MIT",
   "dependencies": {
     "next": "^15.0.2",
